@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640" height="128" viewBox="0 0 640 128">
+<defs>
+ <linearGradient id="wood" x2=".9" y2="1"><stop stop-color="#d1ad72"/><stop offset=".45" stop-color="#6b4835"/><stop offset="1" stop-color="#b0a484"/></linearGradient>
+ <g id="bow" fill="none" stroke-linecap="round">
+  <path d="M17 40Q17 53 27 48Q43 25 64 42Q85 25 101 48Q111 53 111 40" stroke="#152b31" stroke-width="8"/>
+  <path d="M17 40Q17 53 27 48Q43 25 64 42Q85 25 101 48Q111 53 111 40" stroke="url(#wood)" stroke-width="5"/>
+  <path d="M58 41L70 41" stroke="#b9bda2" stroke-width="7"/>
+  <path d="M59 39V45M63 39V45M67 39V45" stroke="#3d3c32" stroke-width="1"/>
+ </g>
+ <g id="grip" stroke="#193338" stroke-linecap="round">
+  <path d="M9 67L28 71L60 45" stroke="#1a2d30" stroke-width="13" fill="none"/>
+  <path d="M9 67L28 71L60 45" stroke="#496c56" stroke-width="9" fill="none"/>
+  <path d="M46 60L59 47" stroke="#8c694c" stroke-width="9"/>
+  <path d="M58 42Q64 38 69 43L67 49L59 49Z" fill="#d6be96" stroke-width="2"/>
+  <path d="M60 43L66 44M60 46L66 47" stroke="#8b674e" stroke-width="1"/>
+ </g>
+ <g id="nocked" fill="none"><path d="M64 62V13" stroke="#152c31" stroke-width="5"/><path d="M64 62V13" stroke="#e7d9b3" stroke-width="2"/><path d="M64 12L59 23L64 20L69 23Z" fill="#e1eee3" stroke="#273f48"/><path d="M59 55L64 59L69 55" stroke="#c0d0b8" stroke-width="3"/></g>
+ <g id="right-idle" stroke-linecap="round"><path d="M72 67L93 82L68 63" stroke="#193338" stroke-width="13" fill="none"/><path d="M72 67L93 82L68 63" stroke="#496c56" stroke-width="9" fill="none"/><path d="M81 73L69 64" stroke="#8c694c" stroke-width="9"/><ellipse cx="66" cy="62" rx="5" ry="4" fill="#d6be96" stroke="#193338" stroke-width="2"/></g>
+</defs>
+<!-- idle: left hand grips the wood, right hand holds the nock/string -->
+<use xlink:href="#bow"/><path d="M17 40L64 62L111 40" fill="none" stroke="#ead7ab" stroke-width="1.5"/><use xlink:href="#nocked"/><use xlink:href="#grip"/><use xlink:href="#right-idle"/>
+<!-- draw: arrow nock and right hand move back together -->
+<g transform="translate(128)"><use xlink:href="#bow"/><path d="M17 40L64 85L111 40" fill="none" stroke="#ead7ab" stroke-width="1.5"/><use xlink:href="#nocked" transform="translate(0 23)"/><use xlink:href="#grip"/><path d="M72 67L96 78L68 85" fill="none" stroke="#193338" stroke-width="13" stroke-linecap="round"/><path d="M72 67L96 78L68 85" fill="none" stroke="#496c56" stroke-width="9" stroke-linecap="round"/><path d="M81 82L69 85" stroke="#8c694c" stroke-width="9"/><ellipse cx="65" cy="85" rx="5" ry="4" fill="#d6be96" stroke="#193338" stroke-width="2"/></g>
+<!-- release: no decorative arrow remains after the gameplay shot -->
+<g transform="translate(256)"><use xlink:href="#bow"/><path d="M17 40L64 43L111 40" fill="none" stroke="#fff0cb" stroke-width="2"/><use xlink:href="#grip"/><path d="M72 67L102 78L77 82" fill="none" stroke="#193338" stroke-width="13" stroke-linecap="round"/><path d="M72 67L102 78L77 82" fill="none" stroke="#496c56" stroke-width="9" stroke-linecap="round"/><path d="M90 80L78 83" stroke="#8c694c" stroke-width="9"/><path d="M73 79L80 79L84 85L78 89L72 85Z" fill="#d6be96" stroke="#193338" stroke-width="2"/></g>
+<!-- recover: string settles; next arrow is not yet nocked -->
+<g transform="translate(384)"><use xlink:href="#bow"/><path d="M17 40L64 49L111 40" fill="none" stroke="#ead7ab" stroke-width="1.5"/><use xlink:href="#grip"/><use xlink:href="#right-idle"/></g>
+<!-- projectile: tip anchor (64,32); artwork trails behind the collision point -->
+<g transform="translate(512)"><path d="M64 112V38" stroke="#152c31" stroke-width="7"/><path d="M64 112V38" stroke="#f4e2b0" stroke-width="3"/><path d="M64 32L56 48L64 44L72 48Z" fill="#e6eee1" stroke="#193338" stroke-width="2"/><path d="M57 94L64 100L71 94M57 104L64 110L71 104" fill="none" stroke="#b8d4ba" stroke-width="4"/></g>
+</svg>

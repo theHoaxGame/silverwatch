@@ -1,0 +1,76 @@
+{
+  "atlas": "assets/sprites/hd-units.webp",
+  "cell": 256,
+  "footY": 220,
+  "frames": 8,
+  "columns": [
+    "ranger",
+    "raider",
+    "runner",
+    "weaver",
+    "brute",
+    "elite",
+    "boneguard",
+    "lantern",
+    "binder",
+    "boss",
+    "rock",
+    "swordsman",
+    "companion"
+  ],
+  "generator": "Local ComfyUI, SDXL base 1.0 (CreativeML Open RAIL++-M)",
+  "units": {
+    "ranger": {
+      "source": "art-source/hd-units/companion.png",
+      "sha256": "58a561eba0a6c08c0a7ca2e6b7cf369e68f2f466192cea7d5e74353f1b9f95cf"
+    },
+    "raider": {
+      "source": "art-source/hd-units/raider.png",
+      "sha256": "4240a8f05202432a49041a04cf0a6885ad583c5a8221e67f0146bbcc6840c9cc"
+    },
+    "runner": {
+      "source": "art-source/hd-units/runner.png",
+      "sha256": "a64a1b98988ee718e00531d0b984737a53fe361e3b05217799c16eb5adb1b900"
+    },
+    "weaver": {
+      "source": "art-source/hd-units/weaver.png",
+      "sha256": "45d37294bb31a8611bb616470e7d15f72b618bf180ec10bbaec7427c92333e5b"
+    },
+    "brute": {
+      "source": "art-source/hd-units/brute.png",
+      "sha256": "f4ed6db686e6c39fc67a215eeea439bd35fe63edbf9418c06111a57c0b341a2e"
+    },
+    "elite": {
+      "source": "art-source/hd-units/elite.png",
+      "sha256": "a209afe5a04fed8d52c11b605e2bc3bc1bb99c57e37bea79e1e7c72b1b7dfad6"
+    },
+    "boneguard": {
+      "source": "art-source/hd-units/boneguard.png",
+      "sha256": "562e7cfeb5a93c189fd1b8c2edf9b065113cdf19c94a2ed0731a8c3608b94e5c"
+    },
+    "lantern": {
+      "source": "art-source/hd-units/lantern.png",
+      "sha256": "5c0d2c37bb612dce5a17acf06fb3fa82f8f8ee4dc2a19ceb06432d5c56e2b19d"
+    },
+    "binder": {
+      "source": "art-source/hd-units/binder.png",
+      "sha256": "5c74978af60868ae661ecfdcc66878956427d8cf1b31873bc5a6599efd4d7d41"
+    },
+    "boss": {
+      "source": "art-source/hd-units/boss.png",
+      "sha256": "e814e75b2717f493f086f61e6a8ba2831027d8377140da6c413a27ec6c212927"
+    },
+    "rock": {
+      "source": "art-source/hd-units/rock.png",
+      "sha256": "fe1591ee51dd6939f50f1f57035a2b4a1ed030d87122f220da3c6c046baafa89"
+    },
+    "swordsman": {
+      "source": "art-source/hd-units/swordsman.png",
+      "sha256": "c74708995ff10c25651953dc0d0edca626d6dd7bb05d0538c1777ca0f80ec52d"
+    },
+    "companion": {
+      "source": "art-source/hd-units/companion.png",
+      "sha256": "58a561eba0a6c08c0a7ca2e6b7cf369e68f2f466192cea7d5e74353f1b9f95cf"
+    }
+  }
+}

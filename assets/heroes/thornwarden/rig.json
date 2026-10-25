@@ -1,0 +1,22 @@
+{
+  "hero": "thornwarden",
+  "source": "art-input/heroes/thornwarden.png",
+  "sourceSha256": "d4cedd1d8471e7565a3bd2e898be15c1c515c3ce029d3fe15615ca3337f3c09d",
+  "size": 256,
+  "foot": [
+    128,
+    220
+  ],
+  "layers": [
+    "torso",
+    "cloak",
+    "left-arm",
+    "right-arm",
+    "left-leg",
+    "right-leg",
+    "quiver"
+  ],
+  "rearMirrored": false,
+  "method": "User-supplied front/back art; neutral matte removal, reviewed contours, aligned cutout rig.",
+  "limits": "2D cutout animation using the existing rear-view shot solver; not a 3D model or newly drawn overhead anatomy."
+}

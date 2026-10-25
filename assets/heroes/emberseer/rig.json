@@ -1,0 +1,22 @@
+{
+  "hero": "emberseer",
+  "source": "art-input/heroes/emberseer.png",
+  "sourceSha256": "76e3cecfdd63b35f689a851173f10d1b304cd42fa1ee3d663c865dafb882ff6e",
+  "size": 256,
+  "foot": [
+    128,
+    220
+  ],
+  "layers": [
+    "torso",
+    "cloak",
+    "left-arm",
+    "right-arm",
+    "left-leg",
+    "right-leg",
+    "quiver"
+  ],
+  "rearMirrored": true,
+  "method": "User-supplied front/back art; neutral matte removal, reviewed contours, aligned cutout rig.",
+  "limits": "2D cutout animation using the existing rear-view shot solver; not a 3D model or newly drawn overhead anatomy."
+}

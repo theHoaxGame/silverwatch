@@ -1,0 +1,22 @@
+{
+  "hero": "moonhuntress",
+  "source": "art-input/heroes/moonhuntress.png",
+  "sourceSha256": "9432ffa7deca97aa03a0d911d8e06f8a7155b6fd6e31f08656da2cb06bd8c9f5",
+  "size": 256,
+  "foot": [
+    128,
+    220
+  ],
+  "layers": [
+    "torso",
+    "cloak",
+    "left-arm",
+    "right-arm",
+    "left-leg",
+    "right-leg",
+    "quiver"
+  ],
+  "rearMirrored": false,
+  "method": "User-supplied front/back art; neutral matte removal, reviewed contours, aligned cutout rig.",
+  "limits": "2D cutout animation using the existing rear-view shot solver; not a 3D model or newly drawn overhead anatomy."
+}

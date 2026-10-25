@@ -1,0 +1,104 @@
+{
+  "source": "../../sprite-review/ranger-no-plume-concept.png",
+  "sourceSha256": "267aa15b4b55975edb947575ab131516a4d1a773cae7cddd8926660825c6db92",
+  "sourceGeneration": "../../generated/ranger-239820.json",
+  "body": {
+    "file": "body-poses.png",
+    "cell": 256,
+    "frames": 4,
+    "foot": [
+      128,
+      220
+    ]
+  },
+  "weapon": {
+    "file": "bow-hands.png",
+    "cell": 256,
+    "frames": 12,
+    "muzzle": [
+      128,
+      24
+    ],
+    "stringHalfLength": 38,
+    "orientation": "Upright in the forward/height plane, viewed nearly edge-on from behind.",
+    "hands": {
+      "left": "Extended shoulder-level bow arm with fixed grip",
+      "right": "Raised elbow, cheek anchor and backward follow-through without dropping the arm"
+    },
+    "motionReference": "https://www.youtube.com/shorts/g1F4MmZOuUQ",
+    "referenceUse": "Observed archery mechanics only; no film pixels, costume or character likeness imported.",
+    "poses": [
+      {
+        "tension": 0,
+        "nocked": true,
+        "released": false
+      },
+      {
+        "tension": 1,
+        "nocked": true,
+        "released": false
+      },
+      {
+        "tension": 0,
+        "nocked": false,
+        "released": true
+      },
+      {
+        "tension": 0,
+        "nocked": false,
+        "released": false
+      },
+      {
+        "tension": 0.14285714285714285,
+        "nocked": true,
+        "released": false
+      },
+      {
+        "tension": 0.2857142857142857,
+        "nocked": true,
+        "released": false
+      },
+      {
+        "tension": 0.42857142857142855,
+        "nocked": true,
+        "released": false
+      },
+      {
+        "tension": 0.5714285714285714,
+        "nocked": true,
+        "released": false
+      },
+      {
+        "tension": 0.7142857142857143,
+        "nocked": true,
+        "released": false
+      },
+      {
+        "tension": 0.8571428571428571,
+        "nocked": true,
+        "released": false
+      },
+      {
+        "tension": 0.18,
+        "nocked": false,
+        "released": true
+      },
+      {
+        "tension": 0.04,
+        "nocked": false,
+        "released": true
+      }
+    ]
+  },
+  "layers": [
+    "left-leg",
+    "right-leg",
+    "cloak",
+    "left-arm",
+    "right-arm",
+    "torso",
+    "quiver"
+  ],
+  "method": "Hand-contoured painted cutouts, shared affine placement, opposing limb pivot rotations; separately painted shaded bow and hands.",
+  "limits": "Limited cutout walk, not new frame-by-frame anatomy. Original rear camera retained, not falsely converted to true overhead. Enemies remain vector pending the ranger pass."
+}
